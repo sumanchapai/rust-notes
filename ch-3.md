@@ -1,4 +1,4 @@
-# [Chapter 3 Rust Book](https://doc.rust-lang.org/book/ch03-00-common-programming-concepts.html)
+# [Chapter 3](https://doc.rust-lang.org/book/ch03-00-common-programming-concepts.html)
 
 ## 3.1 Variables and Mutability
 1. Variables are immutable by default
