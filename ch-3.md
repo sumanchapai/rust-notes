@@ -48,3 +48,20 @@ let y = {
 
 ## 3.3 Comments
 1. // marks beginning of an end of line comment.
+
+## 3.4 Control flow
+1. The condition in the if block must be a `bool`.
+1. `if` is an expression not a statement.
+1. A block of code evaluates to the last expression in it. For example 
+```rust
+let x = {
+    5 + 5;
+    1 * 10;
+    1 + 2
+};
+// Here the value of the block is the value of the last expression i.e 3.
+// Thus R-Type of x is 3
+```
+1. `if` and the `else` arms must return values of compatible types. Perhaps the formal definition of compatibility is more compelx but general rules apply. For example integer and string types are not compatible.
+1. Three kinds of loops: `loop`, `while` and `for`
+
