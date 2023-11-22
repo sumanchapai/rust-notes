@@ -45,3 +45,6 @@ let y = {
 // At this point, y is an immutable variable whose R-Value is 4
 // Note that there's no semicolon after x+1 but after the closing }
 ```
+
+## 3.3 Comments
+1. // marks beginning of an end of line comment.
