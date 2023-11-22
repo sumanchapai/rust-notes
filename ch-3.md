@@ -20,4 +20,28 @@ x = 6;
 ```
 
 ## 3.2 Data Types
-1. xxx
+1. Data Type means R-Type which means the type of a **value**.
+1. Variables must be type annotated when it's otherwise ambiguous like parsing string to number.
+1. Scalars: integers (i for unsigned and u for signed), floats (f32, f64), bool, char
+1. Compound: tuples and arrays
+
+
+
+## 3.2 Functions
+1. Use snake_case names.
+1. Place functions anywhere in a file. Definition doesn't need to placed strictly ebfore use.
+1. What's inside a block scope `{}` is an expression.
+1. Assignment is a statment, not an expression.
+1. Expressions don't have semicolons at the end.
+1. A expression with a semicolon at the end is a statement.
+
+
+```rust
+// This is legal since a block scope is an expression
+let y = {
+    let x = 3;
+    x + 1
+};
+// At this point, y is an immutable variable whose R-Value is 4
+// Note that there's no semicolon after x+1 but after the closing }
+```
