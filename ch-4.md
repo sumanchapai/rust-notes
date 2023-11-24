@@ -145,3 +145,9 @@ fn takes_and_gives_back(a_string: String) -> String { // a_string comes into
 ### Rules of reference
 1. At any given time, you can have either one mutable reference or any number of immutable references.
 1. References must always be valid.
+
+
+1. Call-by-copy-in seems to be the only parameter passing mode in Rust. However
+   note that copying also passes the ownership making the copied from variable
+   go out of scope.
+1. 
